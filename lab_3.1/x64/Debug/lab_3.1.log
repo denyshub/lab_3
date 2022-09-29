@@ -1,2 +1,4 @@
 ﻿  Source.cpp
-LINK : fatal error LNK1168: cannot open C:\Users\dengu\source\repos\lab_3.1\x64\Debug\lab_3.1.exe for writing
+C:\Users\dengu\source\repos\lab_3.1\lab_3.1\Source.cpp(59,2): error C2059: syntax error: 'return'
+C:\Users\dengu\source\repos\lab_3.1\lab_3.1\Source.cpp(60,1): error C2059: syntax error: '}'
+C:\Users\dengu\source\repos\lab_3.1\lab_3.1\Source.cpp(60,1): error C2143: syntax error: missing ';' before '}'

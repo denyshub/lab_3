@@ -9,7 +9,7 @@ int main() {
 	cout << "Enter y: "; cin >> y;
 	cout << "Enter R: "; cin >> R;
 
-	if ((x <= 0 && x >= -R && y <= x + R && y >= 0 && y <= R) || (x >= 0 && x <= R && y <= x * x + y * y - R * R && y >= 0 && y <= R) || (x <= 0 && y <= x * x + y * y - R * R && y <= 0 && y >= -R && x>=-R))
+	if ((x <= 0 && x >= -R && y <= x + R && y >= 0 && y <= R) || (x >= 0 && x <= R && y <= -(x * x + y * y - R * R) && y >= 0 && y <= R) || (x <= 0 && y <= -(x * x + y * y - R * R) && y <= 0 && y >= -R && x >= -R))
 		cout << "yes" << endl;
 	else
 		cout << "no";

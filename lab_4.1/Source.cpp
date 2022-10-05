@@ -16,16 +16,12 @@ int main()
 	}
 	cout << "Result_for_plus: " << y << endl;
 
-
-	// for 1
-
+	// for 2
 	y3 = 1;
 	for (i = 15; i >= 1; i--) {
 		y3 *= (pow(sin(1. * i), 2) + pow(cos(1.0 / 1. * i), 2)) / 1. * i * 1. * i;
 	}
 	cout << "Result_for_minus: " << y3 << endl;
-
-
 
 	//while
 	y1 = 1;
@@ -36,6 +32,7 @@ int main()
 
 	}
 	cout << "Result_while: " << y1 << endl;
+
 	//do while
 	y2 = 1;
 	i = 1;
